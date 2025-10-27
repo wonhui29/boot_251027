@@ -11,7 +11,7 @@ public class ExamController {
    @RequestMapping("/")
 //   public void home() {
 	   public String home() {
-      log.info("hello boot 111 222 333 444 666");
+      log.info("hello boot 111 222 333 444 666 777");
       
       return "hello";
    }
